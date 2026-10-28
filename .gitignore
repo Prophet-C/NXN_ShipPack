@@ -60,8 +60,6 @@ _backup_*/
 /data/hulls/新建文件夹/
 /data/hulls/鏂板缓鏂囦欢澶_*
 /graphics/weapons/NXN_blinker_white2 - */
-/graphics/ships/_glow_offset.json
-/data/lights/README.txt
 *.log
 hs_err_pid*
 replay_pid*
