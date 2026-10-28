@@ -1,0 +1,18 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+地鸣主炮模式切换器,NXN_rumbling_weapon_swap,1,0,,,,0,,,,0,0,0,0,data.hullmods.NXN_RumblingWeaponSwap,你不应该看到这个船插,你不应该看到这个船插,,graphics/hullmods/NXN_rumbling_weapon_swap.png
+实弹模式,NXN_rumbling_mode_ballistic,1,0,,no_build_in,,0,,,,0,0,0,0,data.hullmods.NXN_RumblingWeaponSwapCycle,为地鸣级安装 实弹主炮，移除此船插以切换为能量主炮。,实弹模式,,graphics/hullmods/NXN_rumbling_mode_ballistic.png
+能量模式,NXN_rumbling_mode_energy,1,0,,no_build_in,,0,,,,0,0,0,0,data.hullmods.NXN_RumblingWeaponSwapCycle,为地鸣级安装 能量主炮，移除此船插以切换为实弹主炮。,能量模式,,graphics/hullmods/NXN_rumbling_mode_energy.png
+豪华内饰,NXN_luxury_interior,1,0,,no_drop,,0,,,,0,0,0,0,data.hullmods.NXN_LuxuryInterior,地鸣级作为天灾军团旗舰享有顶级生活娱乐水平：最大CR提升{%s}，CR恢复提升{%s}，补给需求提升{%s}。,豪华内饰,,graphics/hullmods/NXN_luxury_interior.png
+缺陷防空,NXN_defective_pd,1,0,,no_drop,,0,,,,0,0,0,0,data.hullmods.NXN_DefectivePD,由于设计缺陷，点防御武器造成的伤害降低{%s}。,缺陷防空,,graphics/hullmods/NXN_defective_pd.png
+模块化装甲设计,NXN_modular_armor_design,1,0,,no_drop,,0,,,,0,0,0,0,data.hullmods.NXN_ModularArmorDesign,外置模块完整时，受到EMP伤害降低{%s}；同时散幅降低{%s}，机动性降低{%s}，最高航速降低{%s}。每失去一块模块，上述惩罚逐步减轻。,模块化装甲,,graphics/hullmods/NXN_modular_armor_design.png
+天灾军团定位核心-旗舰,NXN_flagship_targeting_core,1,0,,no_drop,,0,,,,0,0,0,0,data.hullmods.NXN_FlagshipTargetingCore,实弹与能量武器射程提高{%s}，武器后坐力降低{%s}，武器精准度降低{%s}。与专注型目标锁定核心、目标定位系统冲突。,旗舰定位核心,,graphics/hullmods/NXN_flagship_targeting_core.png
+坍缩炉系统,NXN_collapse_reactor_system,1,0,,no_drop,,0,,,,0,0,0,0,data.hullmods.NXN_CollapseReactorSystem,"把反应堆的余量灌进武器回路：持续开火时，实弹、能量与导弹武器的幅能消耗逐步下降——每次开火 -0.5%%，最多 -20%%，停火 3 秒后重置。
+
+同时排幅速度 +50%%，但排幅期间机动性下降 50%%。
+
+换句话说：它奖励一直开枪，惩罚打完就排。",持续开火降低武器幅能消耗，排幅更快但更笨重。,,graphics/hullmods/NXN_collapse_reactor_system.png
+GN护盾,NXN_gnshield,1,0,,,,0,,,,0,0,0,0,data.hullmods.NXN_GNShield,将你的护盾替换为覆盖于机体表面的镀层，由 NXN 自制实现（原 Moci GN护盾移植）。,,,graphics/hullmods/NXN_GNShield.png
+量子槽,NXN_quantum_gauge,1,0,,,,0,,,,0,0,0,0,data.hullmods.NXN_QuantumGauge,随时间和幅能排散积累的量子能量，开启 F 系统时消耗。,,,graphics/hullmods/NXN_quantum_gauge.png
+薄弱环节,NXN_weak_point,1,0,,negative,缺陷,0,,,,0,0,0,0,data.hullmods.NXN_WeakPoint,地鸣级的第二座主炮因为未知原因，结构强度不足：全舰武器受到的伤害提高 30%%。军团至今没有查明原因，也没有人愿意去查明。,武器受到的伤害 +30%%。,,graphics/hullmods/NXN_weak_point.png
+侦查机库,NXN_scout_hangar,2,0,,defensive,机库,0,,,,0,0,0,0,data.hullmods.NXN_ScoutHangar,机库搭载截击机时，中槽以下的武器射程提高 200：截击机负责把敌人钉在远处，小口径武器则借这个距离把火力投射出去。,装备截击机时中槽以下武器射程 +200。,,graphics/hullmods/NXN_scout_hangar.png
+天灾旗舰,NXN_flagship_of_calamity,3,0,,flagship,旗舰,0,,,,0,0,0,0,data.hullmods.NXN_FlagshipOfCalamity,地鸣级在场时，所有天灾军团舰船全属性提高 5%%。作为军团的心脏，它把双炉的出力分给整支舰队；同时地鸣级自身免疫一切电子战负面效果——没人能用干扰把一座反应堆关掉。,友军全属性 +5%%；自身免疫电子战。,,graphics/hullmods/NXN_flagship_of_calamity.png

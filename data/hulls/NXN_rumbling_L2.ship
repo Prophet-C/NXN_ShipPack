@@ -1,0 +1,65 @@
+{
+  "hullName": "NXN_rumbling_L2",
+  "hullId": "NXN_rumbling_L2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/NXN_rumbling_L2.png",
+  "style": "NXN_L2",
+  "height": 187,
+  "width": 97,
+  "center": [48.5, 93.5],
+  "collisionRadius": 115.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "NXN_blinker_white1",
+    "WS0002": "NXN_blinker_white1",
+    "NEST_L": "NXN_missile_nest_L"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-67, 47]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-48.5, 47]
+    },
+    {
+      "id": "NEST_L",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [33.0, -10.0],
+      "renderOrderMod": 0
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    91, -21,
+    93, -25,
+    49, -47,
+    28, -47,
+    -64, -13,
+    -97.5, 30.5,
+    -79, 51,
+    -37.5, 51,
+    13.5, -7
+  ]
+}

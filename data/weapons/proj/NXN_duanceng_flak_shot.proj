@@ -1,0 +1,64 @@
+{
+ "id": "NXN_duanceng_flak_shot",
+ "specClass": "projectile",
+ "spawnType": "BALLISTIC",
+ "length": 70,
+ "width": 4.5,
+ "fadeTime": 0.32,
+ "collisionClass": "PROJECTILE_FIGHTER",
+ "collisionClassByFighter": "PROJECTILE_FIGHTER",
+ "fringeColor": [
+  235,
+  240,
+  250,
+  205
+ ],
+ "coreColor": [
+  255,
+  230,
+  120,
+  255
+ ],
+ "textureType": "SMOOTH",
+ "pixelsPerTexel": 5.0,
+ "textureScrollSpeed": 64.0,
+ "behaviorSpec": {
+  "behavior": "PROXIMITY_FUSE",
+  "range": 30,
+  "vsMissileRange": 60,
+  "vsFighterRange": 45,
+  "explosionSpec": {
+   "duration": 0.08,
+   "radius": 85,
+   "coreRadius": 45,
+   "collisionClass": "PROJECTILE_NO_FF",
+   "collisionClassByFighter": "PROJECTILE_FIGHTER",
+   "particleSizeMin": 9.0,
+   "particleSizeRange": 9.0,
+   "particleDuration": 1.6,
+   "particleCount": 70,
+   "particleColor": [
+    135,
+    135,
+    140,
+    150
+   ],
+   "explosionColor": [
+    255,
+    180,
+    100,
+    110
+   ],
+   "sound": "explosion_flak"
+  }
+ },
+ "explosionRadius": 50,
+ "glowColor": [
+  255,
+  215,
+  120,
+  95
+ ],
+ "glowRadius": 34,
+ "hitGlowRadius": 24
+}

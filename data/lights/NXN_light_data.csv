@@ -1,0 +1,8 @@
+id,type,size,intensity,fadeout,color,offset,hit size,hit intensity,hit fadeout,hit color,flash size,flash intensity,flash fadeout,flash color,flash offset,chance,fighter dim
+#Moci_RX_93_v2_bit_beam,beam,100,0.5,,"[229,120,255]",,150,0.9,,"[255,150,255]",110,0.85,,"[125,0,155]",,1,TRUE
+#Moci_tpc2_shot,projectile,175,0.5,0.3,"[255,25,25]",,175,0.6,0.75,"[255,25,25]",300,0.3,0.3,"[255,100,100]",,1,TRUE
+NXN_rumbling_maingun_energy,beam,150,1,,"[100,120,255]",,150,0.9,,"[255,150,255]",110,0.85,,"[125,0,155]",,1,TRUE
+NXN_rumbling_maingun_ballistic_shot,projectile,175,2.5,0.2,"[100,100,255]",,200,0.45,0.75,"[60,65,255]",175,0.45,0.15,"[100,100,255]",,1,TRUE
+#BSF_emperorPenguin_shot,projectile,125,1.5,0.2,"[100,100,255]",,100,0.45,0.75,"[60,65,255]",175,0.45,0.15,"[100,100,255]",,1,TRUE
+uaf_ivory_shot,projectile,90,1,0.2,"[100,100,255]",,100,0.45,0.75,"[60,65,255]",175,0.45,0.15,"[100,100,255]",,1,TRUE
+lxvi_disturb_shot,projectile,125,0.5,0.2,"[100,100,255]",,100,0.45,0.75,"[60,65,255]",175,0.45,0.15,"[100,100,255]",,1,TRUE

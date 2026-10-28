@@ -1,0 +1,63 @@
+{
+  "id": "NXN_aa90",
+  "specClass": "projectile",
+  "projectileSpecId": "NXN_aa90_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 260,
+  "turretSprite": "graphics/weapons/nxn/aa90_base.png",
+  "turretGunSprite": "graphics/weapons/nxn/aa90_gun.png",
+  "hardpointSprite": "graphics/weapons/nxn/aa90_base.png",
+  "hardpointGunSprite": "graphics/weapons/nxn/aa90_gun.png",
+  "everyFrameEffect": "data.scripts.weapons.NXN_FlakProximity",
+  "Hints": [
+    "PD",
+    "PD_ONLY"
+  ],
+  "renderHints": ["RENDER_BARREL_BELOW"],
+  "visualRecoil": 3,
+  "turretOffsets": [
+    13,
+    -5,
+    13,
+    -3,
+    13,
+    2,
+    13,
+    4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    -5,
+    13,
+    -3,
+    13,
+    2,
+    13,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 12,
+    "spread": 5,
+    "particleSizeMin": 3,
+    "particleSizeRange": 8,
+    "particleDuration": 0.10,
+    "particleCount": 10,
+    "particleColor": [255, 245, 210, 110]
+  },
+  "fireSoundTwo": "flak_fire"
+}

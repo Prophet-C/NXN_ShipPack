@@ -1,0 +1,24 @@
+{
+    "author": "雨停",
+    "description": "测试船包",
+    "gameVersion": "0.98",
+    "id": "NXN_ShipPack",
+    "jars": ["jars/NXN.jar", "jars/NXN_missions.jar"],
+    "modPlugin": "data.scripts.NXN_core_plugin",
+    "name": "雨停船包",
+    "version": "0.1",
+    "dependencies": [
+    {
+      "id": "MagicLib",
+      "name": "MagicLib"
+    },
+    {
+      "id": "shaderLib",
+      "name": "GraphicLib"
+    },
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    }
+    ]
+}

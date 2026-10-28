@@ -1,0 +1,77 @@
+{
+ "id": "NXN_mini_missile",
+ "specClass": "missile",
+ "missileType": "MISSILE",
+ "sprite": "graphics/missiles/nxn_yj_warhead.png",
+ "size": [
+  9,
+  22
+ ],
+ "center": [
+  4.5,
+  11
+ ],
+ "collisionRadius": 4,
+ "collisionClass": "MISSILE_NO_FF",
+ "engineSpec": {
+  "turnAcc": 400,
+  "turnRate": 400,
+  "acc": 900,
+  "dec": 400
+ },
+ "explosionColor": [
+  255,
+  200,
+  150,
+  220
+ ],
+ "explosionRadius": 22,
+ "fadeTime": 0.15,
+ "flameoutTime": 0.2,
+ "noEngineGlowTime": 0.05,
+ "glowColor": [
+  255,
+  190,
+  130,
+  70
+ ],
+ "glowRadius": 16,
+ "maxFlightTime": 2.6,
+ "dudProbabilityOnFlameout": 0,
+ "fizzleOnReachingWeaponRange": false,
+ "hitPoints": 40,
+ "engineSlots": [
+  {
+   "id": "ES1",
+   "loc": [
+    0,
+    0
+   ],
+   "angle": 180,
+   "length": 14,
+   "width": 6,
+   "style": "CUSTOM",
+   "styleSpec": {
+    "mode": "PARTICLES",
+    "engineColor": [
+     255,
+     180,
+     120,
+     200
+    ],
+    "contrailParticleSizeMult": 1.6,
+    "contrailParticleDuration": 0.35,
+    "contrailParticleFinalSizeMult": 1.4,
+    "contrailMaxSpeedMult": 0.3,
+    "contrailAngularVelocityMult": 0,
+    "contrailColor": [
+     220,
+     170,
+     140,
+     45
+    ],
+    "type": "SMOKE"
+   }
+  }
+ ]
+}

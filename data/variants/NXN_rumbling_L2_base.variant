@@ -1,0 +1,14 @@
+{
+  "variantId": "NXN_rumbling_L2_base",
+  "hullId": "NXN_rumbling_L2",
+  "displayName": "Base",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

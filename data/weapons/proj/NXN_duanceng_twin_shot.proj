@@ -1,0 +1,35 @@
+{
+ "id": "NXN_duanceng_twin_shot",
+ "specClass": "projectile",
+ "onFireEffect": "data.scripts.weapons.NXN_DuancengFuse",
+ "spawnType": "BALLISTIC",
+ "length": 70,
+ "width": 4.5,
+ "fadeTime": 0.32,
+ "collisionClass": "PROJECTILE_FF",
+ "collisionClassByFighter": "PROJECTILE_FIGHTER",
+ "fringeColor": [
+  235,
+  240,
+  250,
+  205
+ ],
+ "coreColor": [
+  255,
+  230,
+  120,
+  255
+ ],
+ "pixelsPerTexel": 5.0,
+ "textureScrollSpeed": 64.0,
+ "glowColor": [
+  255,
+  215,
+  120,
+  95
+ ],
+ "glowRadius": 34,
+ "passThroughMissiles": true,
+ "passThroughFighters": true,
+ "hitGlowRadius": 24
+}

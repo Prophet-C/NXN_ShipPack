@@ -1,0 +1,78 @@
+# Local development, art experiments, previews, and working notes
+/dev/
+/docs/
+/tools/
+/project_context.md
+/AGENTS.md
+/CLAUDE.md
+/preview-animation.cmd
+/NXN_ShipPack/
+/.agents/
+/.codex/
+/.claude/
+
+# Build output and caches (keep jars/NXN.jar and jars/NXN_missions.jar)
+/.build/
+/build/
+/out/
+/target/
+/dist/
+.gradle/
+*.class
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+
+# Editor and machine-specific configuration
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editable artwork; exported runtime images remain tracked
+*.psd
+*.psb
+*.xcf
+*.kra
+
+# Backups, disabled copies, and temporary files
+*.bak*
+*.backup
+*.broken
+*.orig
+*.rej
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+_backup_*/
+/data/hulls/新建文件夹/
+/data/hulls/鏂板缓鏂囦欢澶_*
+/graphics/weapons/NXN_blinker_white2 - */
+/graphics/ships/_glow_offset.json
+/data/lights/README.txt
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json

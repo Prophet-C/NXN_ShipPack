@@ -1,0 +1,23 @@
+{
+  "id": "NXN_duanceng_flak",
+  "specClass": "projectile",
+  "projectileSpecId": "NXN_duanceng_flak_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/nxn/empty.png",
+  "hardpointSprite": "graphics/weapons/nxn/empty.png",
+  "turretOffsets": [
+    0, 0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0, 0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "NONE"
+}

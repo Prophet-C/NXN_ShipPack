@@ -1,0 +1,35 @@
+{
+ "id": "NXN_shiliu_shot",
+ "specClass": "projectile",
+ "spawnType": "BALLISTIC_AS_BEAM",
+ "collisionClass": "RAY",
+ "collisionClassByFighter": "RAY_FIGHTER",
+ "length": 24.0,
+ "width": 10.0,
+ "hitGlowRadius": 80,
+ "fadeTime": 0.1,
+ "fringeColor": [
+  224,
+  203,
+  131,
+  175
+ ],
+ "coreColor": [
+  254,
+  143,
+  131,
+  205
+ ],
+ "glowColor": [
+  255,
+  63,
+  31,
+  80
+ ],
+ "glowRadius": 40,
+ "textureScrollSpeed": 64.0,
+ "pixelsPerTexel": 5.0,
+ "bulletSprite": "graphics/missiles/shell_large.png",
+ "onHitEffect": "data.scripts.weapons.NXN_ShiliuHit",
+ "passThroughMissiles": true
+}

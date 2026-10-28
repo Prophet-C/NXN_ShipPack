@@ -1,0 +1,32 @@
+{
+  "graphics": {
+    "fx": {
+      "NXN_trail_helix": "graphics/fx/NXN_trail_helix.png",
+      "NXN_GNShield": "graphics/fx/NXN_GNShield.png",
+      "NXN_GNShield_fog": "graphics/fx/NXN_GNShield_fog.png",
+      "NXN_GNShield_hit": "graphics/fx/NXN_GNShield_hit.png"
+    },
+    "NXN_nuke": {
+      "explosion_1": "graphics/fx/nuke/explosion_1.png",
+      "explosion_2": "graphics/fx/nuke/explosion_2.png",
+      "explosion_2a": "graphics/fx/nuke/explosion_2a.png",
+      "shockwave_1": "graphics/fx/nuke/shockwave_1.png",
+      "shockwave_2": "graphics/fx/nuke/shockwave_2.png",
+      "shockwave_3": "graphics/fx/nuke/shockwave_3.png",
+      "glow_1": "graphics/fx/nuke/glow_1.png",
+      "glow_2": "graphics/fx/nuke/glow_2.png",
+      "glow_3": "graphics/fx/nuke/glow_3.png",
+      "aftermath_1": "graphics/fx/nuke/aftermath_1.png",
+      "aftermath_2": "graphics/fx/nuke/aftermath_2.png",
+      "particle_1": "graphics/fx/nuke/particle_1.png",
+      "particle_2": "graphics/fx/nuke/particle_2.png"
+    },
+    "NXN_fx": {
+      "nebula": "graphics/fx/nebula/nebula.png",
+      "dust": "graphics/fx/nebula/dust.png"
+    },
+    "NXN_ships": {
+      "NXN_rumbling_glow": "graphics/ships/NXN_rumbling_Glow.png"
+    }
+  }
+}

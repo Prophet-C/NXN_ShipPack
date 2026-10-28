@@ -1,0 +1,53 @@
+{
+  "hullName": "NXN_rumbling_R3",
+  "hullId": "NXN_rumbling_R3",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/NXN_rumbling_R3.png",
+  "style": "NXN_R3",
+  "height": 307,
+  "width": 88,
+  "center": [45.5, 153.5],
+  "collisionRadius": 194,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "NXN_blinker_white",
+    "WS0003": "NXN_blinker_white"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-29, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, -36]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    152, -2,
+    122, -43,
+    80, -27.5,
+    15, -36.5,
+    -50.5, -27,
+    -150, 30.5,
+    -37, 42.5,
+    115, 26.5
+  ]
+}

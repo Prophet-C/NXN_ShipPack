@@ -1,0 +1,73 @@
+{
+  "hullName": "NXN_rumbling_R1",
+  "hullId": "NXN_rumbling_R1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/NXN_rumbling_R1.png",
+  "style": "NXN_R1",
+  "height": 267,
+  "width": 73,
+  "center": [36.5, 134.5],
+  "collisionRadius": 148,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "NXN_ShipPack_blinker_green_1",
+    "WS0002": "NXN_blinker_white2",
+    "WS0003": "NXN_blinker_white2",
+    "WS0004": "NXN_blinker_white2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [132, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-23.5, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-56.5, -35]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [64, -6]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    121, 29,
+    99, 5,
+    26, -19,
+    -15, -34,
+    -66, -37.5,
+    -133, 10,
+    -127, 16,
+    114, 33
+  ]
+}

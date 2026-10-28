@@ -1,0 +1,8 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,randomTextureOffset,distance,dispersion,drift,frameOffsetMult,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+NXN_rumbling_maingun_ballistic_shot_tail1,NXN_rumbling_maingun_ballistic_shot,base_trail_smooth,10,0,0,0.5,45,12,"[255,82,21]","[214,169,217]",1,300,500,TRUE,10,0,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,false,false
+NXN_rumbling_maingun_ballistic_shot_tail2,NXN_rumbling_maingun_ballistic_shot,base_trail_smooth,10,0,0,0.5,25,6,"[255,255,255]","[255,255,255]",1,300,500,TRUE,10,0,0,0,FALSE,FALSE,TRUE,0,0,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

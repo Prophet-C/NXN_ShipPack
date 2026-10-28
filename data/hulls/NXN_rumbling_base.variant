@@ -1,0 +1,38 @@
+{
+  "variantId": "NXN_rumbling_base",
+  "hullId": "NXN_rumbling",
+  "displayName": "Base",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "NXN_rumbling_mode_ballistic"
+  ],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "UNDER": "NXN_rumbling_under_base"
+    },
+    {
+      "L_1": "NXN_rumbling_L1_base"
+    },
+    {
+      "L_2": "NXN_rumbling_L2_base"
+    },
+    {
+      "L_3": "NXN_rumbling_L3_base"
+    },
+    {
+      "R_1": "NXN_rumbling_R1_base"
+    },
+    {
+      "R_2": "NXN_rumbling_R2_base"
+    },
+    {
+      "R_3": "NXN_rumbling_R3_base"
+    }
+  ],
+  "wings": []
+}

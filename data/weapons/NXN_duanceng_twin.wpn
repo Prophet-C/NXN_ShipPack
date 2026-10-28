@@ -1,0 +1,25 @@
+{
+  "id": "NXN_duanceng_twin",
+  "specClass": "projectile",
+  "everyFrameEffect": "data.scripts.weapons.NXN_DuancengSparks",
+  "projectileSpecId": "NXN_duanceng_twin_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 320,
+  "turretSprite": "graphics/weapons/nxn/duanceng_base.png",
+  "turretGunSprite": "graphics/weapons/nxn/duanceng_gun.png",
+  "hardpointSprite": "graphics/weapons/nxn/duanceng_base.png",
+  "hardpointGunSprite": "graphics/weapons/nxn/duanceng_gun.png",
+  "Hints": [
+    "STRIKE"
+  ],
+  "renderHints": ["RENDER_BARREL_BELOW"],
+  "visualRecoil": 8,
+  "turretOffsets": [22, -5, 22, 5],
+  "turretAngleOffsets": [0, 0],
+  "hardpointOffsets": [22, -5, 22, 5],
+  "hardpointAngleOffsets": [0, 0],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "fireSoundTwo": "NXN_duanceng_fire"
+}

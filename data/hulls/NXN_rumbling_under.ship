@@ -1,0 +1,26 @@
+{
+  "hullName": "NXN_rumbling_under",
+  "hullId": "NXN_rumbling_under",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/NXN_rumbling_under.png",
+  "style": "LOW_TECH",
+  "height": 740,
+  "width": 306,
+  "center": [153, 370],
+  "collisionRadius": 109.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "builtInMods": [
+        "vastbulk",
+        "never_detaches"
+		],
+  "bounds": [
+    -135, -97,
+    120, -65.5,
+    120, 65.5,
+    -135, 97
+  ]
+}

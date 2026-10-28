@@ -1,0 +1,88 @@
+{
+ "id": "NXN_yj_booster",
+ "specClass": "missile",
+ "missileType": "MISSILE",
+ "sprite": "graphics/missiles/nxn_yj_full.png",
+ "size": [
+  14,
+  42
+ ],
+ "center": [
+  7.0,
+  21.0
+ ],
+ "collisionRadius": 7,
+ "collisionClass": "MISSILE_NO_FF",
+ "onFireEffect": "data.scripts.weapons.NXN_YJMissile",
+ "engineSpec": {
+  "turnAcc": 200,
+  "turnRate": 200,
+  "acc": 0,
+  "dec": 0
+ },
+ "explosionColor": [
+  255,
+  200,
+  150,
+  200
+ ],
+ "explosionRadius": 40,
+ "fadeTime": 0.2,
+ "flameoutTime": 0.3,
+ "noEngineGlowTime": 1.2,
+ "glowColor": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "glowRadius": 0,
+ "maxFlightTime": 12.0,
+ "dudProbabilityOnFlameout": 0,
+ "fizzleOnReachingWeaponRange": false,
+ "useHitGlowWhenDealingDamage": false,
+ "engineSlots": [
+  {
+   "id": "ES1",
+   "loc": [
+    -23,
+    0
+   ],
+   "style": "CUSTOM",
+   "styleSpec": {
+    "mode": "QUAD_STRIP",
+    "engineColor": [
+     190,
+     185,
+     255,
+     230
+    ],
+    "contrailDuration": 1.5,
+    "contrailWidthMult": 1,
+    "contrailWidthAddedFractionAtEnd": 2,
+    "contrailMinSeg": 5,
+    "contrailMaxSpeedMult": 0,
+    "contrailAngularVelocityMult": 0.5,
+    "contrailSpawnDistMult": 0,
+    "contrailColor": [
+     200,
+     198,
+     255,
+     140
+    ],
+    "glowSizeMult": 1.2,
+    "glowAlternateColor": [
+     90,
+     90,
+     115,
+     55
+    ],
+    "type": "GLOW"
+   },
+   "width": 16.0,
+   "length": 46.0,
+   "angle": 180.0
+  }
+ ],
+ "hitPoints": 100
+}

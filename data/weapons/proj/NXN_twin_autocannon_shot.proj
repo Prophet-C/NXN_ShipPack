@@ -1,0 +1,17 @@
+{
+	"id":"NXN_twin_autocannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"length":14,
+	"width":5,
+	"fadeTime":0.12,
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"fringeColor":[255, 170, 90, 255],
+	"coreColor":[255, 245, 220, 255],
+	"textureType":"SMOOTH",
+	"pixelsPerTexel":4.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png",
+	"textureScrollSpeed":64.0,
+	"hitGlowSize":5
+}

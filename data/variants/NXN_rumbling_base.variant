@@ -1,0 +1,93 @@
+{
+  "displayName": "Base",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "NXN_rumbling",
+  "hullMods": [
+    "NXN_rumbling_mode_ballistic"
+  ],
+  "variantId": "NXN_rumbling_base",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "NXN_shiliu_quad",
+        "WS0012": "NXN_shiliu_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "NXN_duanceng_twin",
+        "WS0005": "NXN_duanceng_twin",
+        "WS0006": "NXN_duanceng_twin",
+        "WS0007": "NXN_duanceng_twin",
+        "WS0008": "NXN_duanceng_twin",
+        "WS0009": "NXN_duanceng_twin",
+        "WS0010": "NXN_duanceng_twin",
+        "WS0011": "NXN_duanceng_twin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "NXN_aa90",
+        "WS0015": "NXN_aa90",
+        "WS0016": "NXN_aa90",
+        "WS0017": "NXN_aa90",
+        "WS0018": "NXN_aa90",
+        "WS0019": "NXN_aa90",
+        "WS0020": "NXN_aa90",
+        "WS0021": "NXN_aa90",
+        "WS0022": "NXN_aa90",
+        "WS0023": "NXN_aa90",
+        "WS0024": "NXN_aa90",
+        "WS0025": "NXN_aa90",
+        "WS0026": "NXN_aa90",
+        "WS0027": "NXN_aa90",
+        "WS0028": "NXN_aa90",
+        "WS0029": "NXN_aa90",
+        "WS0030": "NXN_aa90",
+        "WS0031": "NXN_aa90",
+        "WS0032": "NXN_aa90",
+        "WS0033": "NXN_aa90",
+        "WS0034": "NXN_aa90",
+        "WS0035": "NXN_aa90",
+        "WS0036": "NXN_aa90",
+        "WS0037": "NXN_aa90",
+        "WS0038": "NXN_aa90",
+        "WS0039": "NXN_aa90",
+        "WS0053": "NXN_aa90",
+        "WS0054": "NXN_aa90"
+      }
+    }
+  ],
+  "wings": [],
+  "modules": [
+    {
+      "UNDER": "NXN_rumbling_under_base"
+    },
+    {
+      "L_1": "NXN_rumbling_L1_base"
+    },
+    {
+      "L_2": "NXN_rumbling_L2_base"
+    },
+    {
+      "L_3": "NXN_rumbling_L3_base"
+    },
+    {
+      "R_1": "NXN_rumbling_R1_base"
+    },
+    {
+      "R_2": "NXN_rumbling_R2_base"
+    },
+    {
+      "R_3": "NXN_rumbling_R3_base"
+    }
+  ]
+}

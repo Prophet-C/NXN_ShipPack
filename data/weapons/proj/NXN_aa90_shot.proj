@@ -1,0 +1,17 @@
+{
+	"id":"NXN_aa90_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"length":8,
+	"width":4,
+	"fadeTime":0.10,
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"fringeColor":[255, 235, 160, 255],
+	"coreColor":[255, 255, 255, 255],
+	"textureType":"SMOOTH",
+	"pixelsPerTexel":4.0,
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png",
+	"textureScrollSpeed":64.0,
+	"hitGlowSize":4
+}

@@ -1,0 +1,8 @@
+id,type,frame,magnitude,map,path
+NXN_rumbling,ship,,,normal,graphics/ships/NXN_rumbling_Base_Normal.png
+NXN_rumbling_L1,ship,,,normal,graphics/ships/NXN_rumbling_L1_Normal.png
+NXN_rumbling_L2,ship,,,normal,graphics/ships/NXN_rumbling_L2_Normal.png
+NXN_rumbling_L3,ship,,,normal,graphics/ships/NXN_rumbling_L3_Normal.png
+NXN_rumbling_R1,ship,,,normal,graphics/ships/NXN_rumbling_R1_Normal.png
+NXN_rumbling_R2,ship,,,normal,graphics/ships/NXN_rumbling_R2_Normal.png
+NXN_rumbling_R3,ship,,,normal,graphics/ships/NXN_rumbling_R3_Normal.png

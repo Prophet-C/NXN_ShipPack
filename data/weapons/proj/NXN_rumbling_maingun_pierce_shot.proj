@@ -1,0 +1,21 @@
+{
+	"id":"NXN_rumbling_maingun_pierce_shot",
+	"onHitEffect": "data.scripts.weapons.NXN_rumbling_maingun_pierce",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40,
+	"width":10,
+	"fadeTime":0.06,
+	"fringeColor":[255,165,30,0],
+	"coreColor":[255,220,140,0],
+	"glowColor":[255,165,30,0],
+	"glowRadius":0,
+	"bulletSprite":"graphics/fx/NXN_trail_helix.png",
+	"textureScrollSpeed":240.0,
+	"pixelsPerTexel":1.0,
+	"hitGlowRadius":0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true
+}

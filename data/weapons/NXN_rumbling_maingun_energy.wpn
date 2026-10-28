@@ -1,0 +1,70 @@
+{
+  "id": "NXN_rumbling_maingun_energy",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/NXN_rumbling_maingun_energy.png",
+  "turretGlowSprite": "graphics/weapons/NXN_rumbling_maingun_energy_glow.png",
+  "hardpointSprite": "graphics/weapons/NXN_rumbling_maingun_energy.png",
+  "hardpointGlowSprite": "graphics/weapons/NXN_rumbling_maingun_energy_glow.png",
+  "glowColor": [
+    255,
+    35,
+    0,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    79.5,
+    12,
+    79.5,
+    0,
+    79.5,
+    -12
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    122,
+    12,
+    122,
+    0,
+    122,
+    -12
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "fringeColor": [
+    255,
+    215,
+    0,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 75,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "NXN_beam"
+}

@@ -1,0 +1,23 @@
+{
+  "id":"NXN_output_unlock",
+  "type":"SHIELD_MOD",
+  "aiType":"FORTRESS_SHIELD",
+
+  "statsScript":"data.shipsystems.scripts.NXN_OutputUnlockStats",
+  #"runScriptWhileIdle":true, # unapply() never gets called
+
+
+  "jitterRangeRadiusFraction":0,
+
+  "shieldRingColor":[255,255,255,255],
+  "shieldInnerColor":[100,100,255,75],
+  "shieldThicknessMult":1,
+  "shieldFluctuationMult":0,
+
+  "soundFilterType":"LOWPASS",
+  "soundFilterGain":0.75,
+  "soundFilterGainHF":0.0,
+  
+  "loopSound":"system_fortress_shield_loop",
+  "outOfUsesSound":"gun_out_of_ammo", 
+}

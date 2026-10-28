@@ -1,0 +1,32 @@
+{
+  "id": "NXN_missile_nest_L",
+  "specClass": "projectile",
+  "projectileSpecId": "harpoon_mrm",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/nxn/nest_strip_L00.png",
+  "hardpointSprite": "graphics/weapons/nxn/nest_strip_L00.png",
+  "numFrames": 21,
+  "frameRate": 0,
+  "animationType": "NONE",
+  "everyFrameEffect": "data.scripts.weapons.NXN_MissileNest",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "visualRecoil": 0,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ]
+}
